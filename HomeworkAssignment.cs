@@ -8,21 +8,14 @@ namespace DebugQuiz6
 {
     class HomeworkAssignment
     {
-        private int numberOfExercises;
-        private int timeToComplete;
-        // 10 minutes to complete each exercise
-        private const int TIME_PER_EXERCISE = 10;
-
+         public string ClassName
+        {
+            get set 
+        }
         public int NumberOfExercises
         {
             get; set;
         }
-        public double TimeToComplete
-        {
-            get
-            {
-                return timeToComplete;
-            }
-        }
+        
     }
 }
